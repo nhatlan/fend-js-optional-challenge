@@ -20,7 +20,7 @@ function getRelationship(x, y) {
    		if(!checkX && !checkY){
    			response = x + " and " + y + " are not numbers"; 
    		} else if (!checkX || !checkY){
-   			response = ((!checkX) ? (x + ' is not number') : (y + ' is not number')); 
+   			response = ((!checkX) ? (x + ' is not a number') : (y + ' is not a number')); 
    		}
    		return ("Can't compare relationships because " + response); 
    } 
@@ -33,3 +33,4 @@ console.log(getRelationship(3));
 console.log(getRelationship("hi"));
 console.log(getRelationship(NaN));
 console.log(getRelationship(NaN, undefined));
+// done 
