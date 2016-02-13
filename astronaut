@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Astronaut Excercise JS Optional Challenge</title>
+	<script src="jQuery.js"></script>
+	<script src="astronaut.js"></script>
+	<script src="Pagespeed Insights.js"></script>
+
+</head>
+<body>
+	<h1>header</h1>
+	<div id="info"></div>
+</body>
+</html>
